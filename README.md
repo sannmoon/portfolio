@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+# 🚀 **My Portfolio Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! Here, I showcase my journey transitioning into tech, my projects and my passion for building clean, user-friendly React.js applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 **About Me**
 
-## Expanding the ESLint configuration
+- 🌟 **Transitioning into Tech:** From accounting to crafting code with creativity and purpose.
+- 💻 **Tech Enthusiast:** Passionate about **React.js**, front-end development, and building user-centric applications.
+- 🎯 **Lifelong Learner:** Committed to continuous growth and creating impactful digital experiences.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ **Tech Stack**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🔹 **Frontend:**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- React.js
+- TypeScript
+- Tailwind CSS
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 🔹 **Testing:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Cypress
+
+### 🔹 **Tools:**
+
+- Git
+- VSCode
+
+---
+
+## 📝 **Projects Highlight**
+
+### 🏠 **Room Accommodation Website**
+
+- **Purpose:** A booking platform with a **date picker feature** for managing reservations.
+- **Real-World Application:** Built for a **real-world business use case**.
+
+### 🎵 **Chatterbox**
+
+- **Purpose:** A simple sound app designed for kids with **learning disabilities**.
+- **Features:** Includes basic Polish words for early learning.
+
+### 🍎 **Endodiet App**
+
+- **Purpose:** Helps users determine if foods are suitable for **endometriosis**.
+- **Features:** Includes **image recognition** for food identification.
+
+### 🧪 **Cypress Testing**
+
+- **Purpose:** Ensured website functionality with **E2E testing using Cypress**.
+- **Focus Areas:** Interaction testing, dashboard analysis, and smoke tests.
+
+---
+
+## 🌐 **Live Demo**
+
+👉🏻 [**Check Out My Portfolio**](#)
+
+---
+
+## 📫 **Connect with Me**
+
+- 📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
+- 💼 **LinkedIn:** [Your LinkedIn Profile](#)
+- 🌍 **Portfolio:** [Your Portfolio Link](#)
+
+---
+
+✨ Thank you for visiting my portfolio! I hope you enjoy exploring my work as much as I enjoyed creating it. 😊
