@@ -10,10 +10,10 @@ export default function ProjectsBox({ header, desc }: Props) {
         <div className="relative w-4 h-4 bg-blue-500 transform rotate-45 flex justify-center items-center">
           <div className="absolute w-2 h-2 bg-white rounded-full transform -rotate-45"></div>
         </div>
-        <h1 className="text-sky-300">{header}</h1>
+        <p className="text-sky-400 text-xl">{header}</p>
       </div>
 
-      <p className="text-[20px] text-justify max-w-[80%]">{desc}</p>
+      <p className="text-lg text-justify max-w-[85%]">{desc}</p>
     </div>
   );
 }

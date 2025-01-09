@@ -10,7 +10,7 @@ body {
   cursor: none;
 }
 
-body::after {
+.vertical-lines::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -138,8 +138,8 @@ body::after {
 /* Animation for expanding to target symbol on hover */
 .cursor_wrap.hovering .cursor_move {
   transform: translate(-50%, -50%) scale(1.5);
-  width: 80px; /* Expands the cursor to a larger size */
-  height: 80px;
+  width: 70px; /* Expands the cursor to a larger size */
+  height: 70px;
   background-color: rgba(54, 147, 229, 0.2); /* Adds a soft blue background */
   border: 2px solid #3693e5; /* Adds a border for the circular target effect */
   transform: translate(-50%, -50%) scale(1.2); /* Scale to emphasize the effect */

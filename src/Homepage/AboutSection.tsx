@@ -11,32 +11,31 @@ function AboutSection() {
     <div className="flex justify-between gap-8 max-w-6xl mx-auto">
       <div className="flex-1 border-solid	border-2 border-sky-500 max-w-2xl text-[20px] p-4">
         <p className="mb-4">
-          Hello, I’m Sandar <GiCyborgFace /> a former accountant who made the
-          leap into web development. In 2023, I decided to step away from the
-          world of balance sheets to follow my true interests. <GiCyberEye />I
-          wanted a career where I could build, create, and solve problems, so I
-          dedicated myself to learning code and developing my own projects.
+          Hello, I’m Sandar <GiCyborgFace className="inline" /> a former
+          accountant who made the leap into web development. In 2023, I decided
+          to step away from the world of balance sheets to follow my true
+          interests. <GiCyberEye className="inline" />I wanted a career where I
+          could build, create, and solve problems, so I dedicated myself to
+          learning code and developing my own projects.
         </p>
         <p className="mb-4">
-          I began with <TiHtml5 /> and <MdCss />.
+          I began with <TiHtml5 className="inline" /> and{" "}
+          <MdCss className="inline" />.
         </p>
         <p>
           As I was studying, I also worked on JS algorithms on the{" "}
-          <IoLogoReact /> and I created pages and small applications. When I
-          felt comfortable working with JS i went on to learn <IoLogoReact /> As
-          i went deeper into programming i wanted to do more than just front-end
-          so i started learning , Express.js, MongoDB.
+          <IoLogoReact className="inline" /> and I created pages and small
+          applications. When I felt comfortable working with JS i went on to
+          learn <IoLogoReact className="inline" /> As i went deeper into
+          programming i wanted to do more than just front-end so i started
+          learning , Express.js, MongoDB.
         </p>
       </div>
       <div className="relative flex-none border-solid border-2 border-sky-500 w-[280px] h-[430px] p-3 overflow-hidden ">
         <div
-          className="absolute inset-0 z-10 pointer-events-none"
+          className="absolute inset-0 z-10 pointer-events-none bg-cover bg-center opacity-30 mix-blend-difference"
           style={{
             backgroundImage: `url(${Glitch})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.3,
-            mixBlendMode: "difference",
           }}
         ></div>
         <h2 className="bg-pink-600 text-center text-pink-300 font-bold mb-4 glow-effect">

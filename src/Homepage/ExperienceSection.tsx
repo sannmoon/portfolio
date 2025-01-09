@@ -31,10 +31,10 @@ const experiences = [
 
 function ExperienceSection() {
   return (
-    <div className="pt-20 relative max-w-[1000px] my-0 mx-auto">
+    <div className="relative max-w-[1000px] my-0 mx-auto">
       <div className="relative after:content-[''] after:absolute after:w-[2px] after:bg-pink-600 after:top-0 after:bottom-0 after:left-1/2 after:ml-[-1px]">
         {experiences.map((experience, index) => (
-          <div key={index} className="relative h-64">
+          <div key={index} className="relative flex items-center">
             <TimelineBox
               item={experience}
               side={index % 2 === 0 ? "left" : "right"}

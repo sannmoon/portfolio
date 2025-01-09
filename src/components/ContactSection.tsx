@@ -7,9 +7,13 @@ type Props = {
 
 function ContactSection({ icon }: Props) {
   return (
-    <div className="inline-block relative p-5 custom-cursor">
-      <img src={ContactBox} alt="" className="relative padding" width={90} />
-      <div className="absolute top-[33%] left-[34%]">{icon}</div>
+    <div className="flex justify-end items-center relative p-4 custom-cursor">
+      <div className="relative inline-block">
+        <img src={ContactBox} alt="Contact Border" width={70} />
+        <div className="absolute inset-0 left-[11px] top-[16px]">
+          {React.cloneElement(icon, { className: "w-19 h-9" })}
+        </div>
+      </div>
     </div>
   );
 }
