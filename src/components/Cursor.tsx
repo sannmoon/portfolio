@@ -32,7 +32,9 @@ const CustomCursor: React.FC = () => {
   }, [handleMouseMove, handleElementHover]);
 
   return (
-    <div className={`cursor_wrap ${isHovering ? "hovering" : ""}`}>
+    <div
+      className={`hidden md:block cursor_wrap ${isHovering ? "hovering" : ""}`}
+    >
       <div
         className={`cursor_move ${!isHovering ? "cross" : ""}`}
         ref={cursorRef}

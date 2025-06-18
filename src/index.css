@@ -4,7 +4,6 @@
 
 body {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
   color: #fe50b1;
   background-color: black;
   cursor: none;
@@ -79,7 +78,7 @@ body {
 }
 
 .cursor_move.cross {
-  width: 10px; /* Cross size */
+  width: 10px;
   height: 10px;
   background-color: transparent;
   transform: translate(-50%, -50%) scale(1);

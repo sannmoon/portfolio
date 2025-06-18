@@ -6,7 +6,7 @@ import Noclegi from "../assets/Noclegi.png";
 
 function ProjectsSection() {
   return (
-    <div className="h-lvh grid grid-cols-3 gap-12 p-4">
+    <div className="h-full grid grid-cols-2 md:grid-cols-3 gap-6 p-4">
       <ProjectsBox
         image={Noclegi}
         linkGh="https://github.com/sannmoon/four-corners-stays"

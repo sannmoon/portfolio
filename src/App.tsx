@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 import chic from "./assets/chic.jpg";
 import ProjectsSection from "./Homepage/ProjectsSection";
 import AboutSection from "./Homepage/AboutSection";
@@ -35,7 +35,7 @@ function App() {
       }}
     >
       <Cursor />
-      <Navbar
+      <Navigation
         setSelectedPopup={setSelectedPopup}
         selectedPopup={selectedPopup}
       />
@@ -50,13 +50,13 @@ function App() {
               backdropFilter: "blur(4px)",
             }}
           >
-            <div className="absolute left-1/2 top-1/2 mt-[35px] transform -translate-x-1/2 -translate-y-1/2 w-3/4 text-[28px] text-pink-300 flex justify-center items-center h-[85%]">
+            <div className="absolute left-1/2 top-1/2 mt-[35px] transform -translate-x-1/2 -translate-y-1/2 w-[97%] md:w-3/4 text-[28px] text-pink-300 flex justify-center items-center h-[85%]">
               <img
                 src={Sansantopia_Rev}
                 className="relative slide-in-elliptic-top-fwd h-full"
               />
 
-              <div className="absolute overflow-scroll aspect-[3/2] slide-in-elliptic-top-fwd ml-[19px] mr-[18px] max-w-[99%] top-[20px] bottom-[20px] m-10">
+              <div className="absolute overflow-scroll slide-in-elliptic-top-fwd ml-[19px] mr-[18px] max-w-[70%] top-[70px] bottom-[20px] m-16">
                 {selectedPopup === "about" && <AboutSection />}
                 {selectedPopup === "projects" && <ProjectsSection />}
                 {selectedPopup === "skills" && <SkillsSection />}
@@ -65,7 +65,7 @@ function App() {
             </div>
           </div>
         )}
-        <div className="absolute right-0 top-[55%] -translate-y-1/2">
+        <div className="hidden md:block absolute left-auto right-0 top-[55%] -translate-y-1/2">
           <Contact />
         </div>
       </div>

@@ -14,16 +14,23 @@ export default function ProjectsBox({
   linkSite,
 }: Props) {
   return (
-    <div className="">
-      <img src={image} />
-      <h1 className="text-center text-sky-300 my-3">{title}</h1>
-      <p className="text-[16px] text-justify ">{description}</p>
-      <div className="flex gap-3 text-xs text-sky-300 justify-center mt-1">
-        <a href={linkGh} target="_blank">
+    <div className="flex flex-col h-full p-5">
+      <div className="flex-grow">
+        <img
+          src={image}
+          alt="Project preview"
+          className="w-full h-20 object-cover"
+        />
+        <h1 className="text-center text-sky-300 my-3">{title}</h1>
+        <p className="text-[16px] whitespace-normal">{description}</p>
+      </div>
+
+      <div className="flex gap-3 text-xs text-sky-300 justify-center mt-4">
+        <a href={linkGh} target="_blank" rel="noopener noreferrer">
           Github
         </a>
         {linkSite && (
-          <a href={linkSite} target="_blank">
+          <a href={linkSite} target="_blank" rel="noopener noreferrer">
             Live Site
           </a>
         )}
@@ -31,5 +38,3 @@ export default function ProjectsBox({
     </div>
   );
 }
-
-// refer battlefield ui: the Github & Live Site- when you hover, it fills up from left to right(Not sure to add icons would be better)
