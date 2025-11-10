@@ -19,6 +19,15 @@ Welcome to my personal portfolio! Here, I showcase my journey transitioning into
 - React.js
 - TypeScript
 - Tailwind CSS
+- Next.js
+
+### 🔹 **Backend:**
+
+- Node.js
+- Expres.js
+- Prisma
+- MySQL
+- MongoDB
 
 ### 🔹 **Testing:**
 
@@ -53,19 +62,23 @@ Welcome to my personal portfolio! Here, I showcase my journey transitioning into
 - **Purpose:** Ensured website functionality with **E2E testing using Cypress**.
 - **Focus Areas:** Interaction testing, dashboard analysis, and smoke tests.
 
+### 🎬 **WatchMate**
+
+- **Purpose:** A personal platform for movie and TV series enthusiasts.
+- **Features:** Built with Next.js and Prisma, offering user-friendly interface to manage watchlists.
+
 ---
 
 ## 🌐 **Live Demo**
 
-👉🏻 [**Check Out My Portfolio**](#)
+👉🏻 [**Check Out My Portfolio**](https://sandartun.my/)
 
 ---
 
 ## 📫 **Connect with Me**
 
-- 📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn:** [Your LinkedIn Profile](#)
-- 🌍 **Portfolio:** [Your Portfolio Link](#)
+- 💼 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sandartun/)
+- 🌍 **Portfolio:** [Your Portfolio Link](https://sandartun.my/)
 
 ---
 
