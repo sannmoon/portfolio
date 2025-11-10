@@ -3,6 +3,7 @@ import ChatterBox from "../assets/ChatterBox.png";
 import Cypress from "../assets/Cypress.png";
 import EndoApp from "../assets/EndoApp.png";
 import Noclegi from "../assets/Noclegi.png";
+import WatchMate from "../assets/WatchMate.png";
 
 function ProjectsSection() {
   return (
@@ -19,8 +20,8 @@ function ProjectsSection() {
       />
       <ProjectsBox
         image={ChatterBox}
-        linkGh="https://github.com/sannmoon/cypress-e2e"
-        linkSite="https://example.com"
+        linkGh="https://github.com/sannmoon/chatterbox"
+        linkSite="https://chatterbox.sandartun.my/"
         title="Chatterbox"
         description="This simple sound app is designed
         for kids with learning disabilities. The app, in Polish, helps with
@@ -31,7 +32,7 @@ function ProjectsSection() {
       <ProjectsBox
         image={EndoApp}
         linkGh="https://github.com/sannmoon/endo-app"
-        linkSite="https://example.com"
+        linkSite="https://endo.sandartun.my/"
         title="EndoDiet"
         description="Aimed at supporting individuals with endometriosis, this app evaluates
         food choices based on dietary needs. Users can snap a picture of food,
@@ -48,6 +49,16 @@ function ProjectsSection() {
         input validation, navigation checks, and functional verifications, all
         aimed at identifying and resolving potential issues to maintain
         high-quality performance across different features."
+      />
+
+      <ProjectsBox
+        image={WatchMate}
+        linkGh="https://github.com/sannmoon/watchmate"
+        linkSite="https://watchmate.sandartun.my/"
+        title="WatchMate"
+        description="A personal platform for movie and TV series enthusiasts to track 
+        and organize favorite content. Build using Next.js and Prisma, it offers a
+        user-friendly interface to manage watchlists, mark watched items."
       />
     </div>
   );
