@@ -2,7 +2,7 @@ import ContactSection from "./ContactSection";
 import { FaGithub } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { TbFileCv } from "react-icons/tb";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/SandarTunResume.pdf";
 
 function Contact() {
   return (
