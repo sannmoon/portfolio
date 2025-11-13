@@ -1,5 +1,6 @@
 import React from "react";
 import ContactBox from "../assets/ContactBox.png";
+import ContactSound from "../assets/ContactSound.wav";
 
 type Props = {
   icon: React.ReactElement;
@@ -14,8 +15,15 @@ function ContactSection({
   iconClassName,
   wrapperClassName,
 }: Props) {
+  const playSound = () => {
+    const audio = new Audio(ContactSound);
+    audio.play();
+  };
   return (
-    <div className="flex justify-end items-center relative p-4 custom-cursor">
+    <div
+      className="flex justify-end items-center relative p-4 custom-cursor"
+      onClick={playSound}
+    >
       <a href={href} target="_blank">
         <div className="relative inline-block">
           <img
