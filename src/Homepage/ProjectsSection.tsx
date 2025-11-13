@@ -15,7 +15,7 @@ function ProjectsSection() {
         title="4 Corners Stay"
         description="Featuring an integrated calendar and automatic date blocking,
         this website provides a seamless booking experience for the 4-room rental.
-        Guests can easily explore room photos and amenities, and discover nearby
+        Guests can easily explore room photos and amenities and discover nearby
         attractions before securing their reservation."
       />
       <ProjectsBox
@@ -35,7 +35,7 @@ function ProjectsSection() {
         linkSite="https://endo.sandartun.my/"
         title="EndoDiet"
         description="Aimed at supporting individuals with endometriosis, this app evaluates
-        food choices based on dietary needs. Users can snap a picture of food,
+        food choices based on dietary needs. Users can snap a picture of food
         and the app provides feedback on whether the food is suitable for
         someone with endometriosis, promoting healthier choices with ease."
       />
@@ -46,7 +46,7 @@ function ProjectsSection() {
         title="Cypress Testing"
         description="Conducted end-to-end testing using Cypress to ensure website
         functionality and user experience remained seamless. Tests included
-        input validation, navigation checks, and functional verifications, all
+        input validation, navigation checks and functional verifications, all
         aimed at identifying and resolving potential issues to maintain
         high-quality performance across different features."
       />
@@ -57,7 +57,7 @@ function ProjectsSection() {
         linkSite="https://watchmate.sandartun.my/"
         title="WatchMate"
         description="A personal platform for movie and TV series enthusiasts to track 
-        and organize favorite content. Build using Next.js and Prisma, it offers a
+        and organize favorite content. Built using Next.js and Prisma, it offers a
         user-friendly interface to manage watchlists, mark watched items."
       />
     </div>
