@@ -15,19 +15,20 @@ function SkillsSection() {
           />
           <SkillsBox
             header="Currently Practicing"
-            desc="React, TypeScript, Next.js, Prisma, MySQL, Node.js, Google OAuth2.0, RESTful API"
+            desc="React, TypeScript, Next.js, Prisma, MySQL, Node.js, MongoDB, Google OAuth2.0, RESTful API"
           />
           <SkillsBox header="Exploring Next" desc="Python, Cybersecurity" />
           <SkillsBox
             header="Tools & Environment"
-            desc="Git, GitHub, Cypress, VS Code, DBeaver, Postman, Thunder Client, MongoDB"
+            desc="Git, GitHub, Cypress, VS Code, DBeaver, Postman, Thunder Client"
           />
         </div>
 
         <div className="flex flex-col w-full md:w-1/2">
           <SkillsBox
             header="Growth & Learning"
-            desc="I’m constantly evolving and learning. Currently focused on React and TypeScript and exploring exciting new technologies like Python and Next.js. My experience in accounting has sharpened my analytical skills, which I now apply to code optimization and problem-solving. Driven by curiosity and a passion for technology. 🚀"
+            desc="Curious and constantly learning & evolving.
+            I enjoy tackling challenges, refining my coding skills and applying analytical mindset to build efficient, user-focused apps. Passionate about exploring new technologies and improving as a developer every day 🚀"
           />
         </div>
       </div>
