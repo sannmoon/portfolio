@@ -1,6 +1,6 @@
 import { GiCyberEye } from "react-icons/gi";
 import { GiCyborgFace } from "react-icons/gi";
-import { IoLogoReact } from "react-icons/io5";
+import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { TiHtml5 } from "react-icons/ti";
 import { MdCss } from "react-icons/md";
 import Cyborg from "../assets/Cyborg.png";
@@ -12,7 +12,7 @@ function AboutSection() {
       <div className="flex-1 border-solid	border-2 border-sky-500 max-w-2xl text-[20px] p-4 mb-4 md:mb-0">
         <p className="mb-4">
           Hello, I’m Sandar <GiCyborgFace className="inline" /> a former
-          accountant who made the leap into web development. In 2023, I decided
+          accountant who made the leap into web development. In 2024, I decided
           to step away from the world of balance sheets to follow my true
           interests <GiCyberEye className="inline" />I wanted a career where I
           could build, create and solve problems, so I dedicated myself to
@@ -23,16 +23,12 @@ function AboutSection() {
           <MdCss className="inline" />.
         </p>
         <p>
-          As I was studying, I also worked on ....
-          <IoLogoReact className="inline" /> and I created pages and small
-          applications. When I felt comfortable working with JS i went on to
-          learn <IoLogoReact className="inline" /> As i went deeper into
-          programming i wanted to do more than just front-end so i started
-          learning , Express.js, MongoDB. I would also like to try React Native,
-          as mobile apps are a more convenient way to use technology. Cause I
-          believe people may prefer using apps over websites because they offer
-          faster access, a more streamlined user experience, and can be easily
-          accessed on the go.
+          While studying, I also worked with
+          <IoLogoJavascript className="inline" /> to create pages and small
+          applications. Once comfortable with JS, I moved on to{" "}
+          <IoLogoReact className="inline" />. As I delved deeper into
+          programming, I wanted to go beyond frontend, so I started learning
+          Node.js, Express.js and databases.
         </p>
       </div>
       <div className="relative flex-none border-solid border-2 border-sky-500 p-3 overflow-hidden ">
