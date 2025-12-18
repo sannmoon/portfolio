@@ -3,7 +3,7 @@ import TimelineBox from "../components/TimelineBox";
 const experiences = [
   {
     title: "2021- 2023",
-    subtitle: "Account Executive | Syarikat Samling Timber Sdn. Bhd.",
+    subtitle: "Accounting Executive | Syarikat Samling Timber Sdn. Bhd.",
     description:
       "Prepared management account reports, conducted cost analysis, account reconciliations and budgeting. <br/>Utilized Microsoft Dynamics AX and Smart GEP (Petronas) to manage system-driven workflows. <br/>Collaborated with auditors to support financial and tax compliance.",
   },
